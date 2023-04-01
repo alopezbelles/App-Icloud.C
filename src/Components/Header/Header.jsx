@@ -5,38 +5,39 @@ import { useNavigate } from "react-router-dom";
 
 // BOOTSTRAP
 import "bootstrap/dist/css/bootstrap.min.css";
+import Image from "react-bootstrap/Image";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 // STYLES AND AESSETS
 import "./Header.css";
+import logoNavbarWhite from "../../assets/logo-white-04.png"
+
 
 
 function Header() {
-    
-    const navigate = useNavigate();
-   
-
-
-  return (
-    <>
-      <Navbar bg="dark" variant="dark">
+    const [expanded, setExpanded] = useState(false);
+  
+    return (
+      <Navbar className="navbarDesign"  variant="dark" expand="md" expanded={expanded}>
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
+          <Navbar.Brand href="#home">
+          <Image src={logoNavbarWhite} className="logoNavbar"></Image>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")} />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#login">Login</Nav.Link>
+              <Nav.Link href="#register">Register</Nav.Link>
+              <Nav.Link href="#documents">Documents</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
-      <br />
-      
-      
-    </>
-  );
-}
+    );
+  }
 
 
 export default Header;
