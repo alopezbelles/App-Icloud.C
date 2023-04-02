@@ -12,7 +12,7 @@ import "./Documents.css";
 function Documents() {
 
     return(
-        <div></div>
+        <div>HOLA SOY DOCUMENTS</div>
     )
 }
 

@@ -12,7 +12,7 @@ import "./Login.css";
 function Login() {
 
     return(
-        <div></div>
+        <div>soy login</div>
     )
 }
 

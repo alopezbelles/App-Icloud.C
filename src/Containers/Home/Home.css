@@ -1,0 +1,72 @@
+/* Goofle fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #F3F4EF;
+    background-image: url('../../assets/pattern-background-01.png');
+
+}
+
+
+
+.logoHome{
+    width: 12em;
+    margin-top: 5em;
+}
+
+.logoHome:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+.subtittleLogo{
+    font-family: 'Roboto', sans-serif;
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.containerDesign{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.col1Design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+
+    background-image: url("../../assets/pattern-background-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+}
+
+.col2Design{
+    background-color: #96B7A5;
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+    .logoHome{
+        width: 8em;
+    }
+
+    .subtittleLogo{
+        font-size: 20px;
+    }
+  }
