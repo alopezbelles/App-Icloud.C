@@ -1,0 +1,49 @@
+/* Goofle fonts: */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.registerDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 80vh;
+}
+
+.col1Register{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittleRegister {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 20px; */
+}
+
+.formBox{
+  background-color: #F3F4EF;
+  border: solid 2px #272C41;
+  margin-bottom: 30px;
+  width: 30%;
+  height: 50%;
+  border-radius: 10px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputDesign {
+    background-color: #f5ebd8;
+    border-radius: 20px;
+    border: none;
+    width: 80%;
+    height: 5vh;
+    margin-left: 10px;
+  }

@@ -1,0 +1,13 @@
+
+.containerFooter{
+    background-color: #272C41 ;
+    color: #F3F4EF;
+    font-size: 12px;
+    font-style: italic;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
