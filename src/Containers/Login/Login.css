@@ -1,0 +1,54 @@
+.loginDesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.col1Login {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.col2Login {
+  width: 100%;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -5em; */
+}
+
+.formBoxLogin {
+  width: 35%;
+  background-color: #f3f4ef;
+  border: solid 2px #272c41;
+  margin-bottom: 30px;
+  height: 85%;
+  border-radius: 10px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputDesignLogin {
+    background-color: #f5ebd8;
+    border: solid 1.5px #272C41;
+    border-radius: 20px;
+    width: 80%;
+    height: 5vh;
+    margin-left: 10px;
+    margin-bottom: 1em;
+    font-size: 13px;
+  }
+
+  .vectorsLogin{
+    width: 100%;
+  }

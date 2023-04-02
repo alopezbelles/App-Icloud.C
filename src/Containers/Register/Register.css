@@ -21,6 +21,8 @@
 
 .tittleRegister {
   font-family: "Roboto", sans-serif;
+  margin-bottom: 1em;
+  margin-top: 2em;
   /* font-size: 20px; */
 }
 
@@ -29,7 +31,7 @@
   border: solid 2px #272C41;
   margin-bottom: 30px;
   width: 30%;
-  height: 50%;
+  height: 60%;
   border-radius: 10px;
   padding: 20px;
 
@@ -41,9 +43,10 @@
 
 .inputDesign {
     background-color: #f5ebd8;
+    border: solid 1.5px #272C41;
     border-radius: 20px;
-    border: none;
     width: 80%;
     height: 5vh;
     margin-left: 10px;
+    font-size: 13px;
   }
