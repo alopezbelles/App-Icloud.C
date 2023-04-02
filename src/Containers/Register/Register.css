@@ -8,11 +8,12 @@
   justify-content: center;
 
   width: 100%;
-  height: 80vh;
+  height: auto;
 }
 
 .col1Register{
     width: 100%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +24,7 @@
   font-family: "Roboto", sans-serif;
   margin-bottom: 1em;
   margin-top: 2em;
+  width: 80vw;
   /* font-size: 20px; */
 }
 
@@ -30,8 +32,8 @@
   background-color: #F3F4EF;
   border: solid 2px #272C41;
   margin-bottom: 30px;
-  width: 30%;
-  height: 60%;
+  width: 40%;
+  height: 80%;
   border-radius: 10px;
   padding: 20px;
 
@@ -39,6 +41,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .inputDesign {
@@ -48,5 +52,23 @@
     width: 80%;
     height: 5vh;
     margin-left: 10px;
+    margin-bottom: 5px;
     font-size: 13px;
+  }
+
+  .vectorsRegister{
+    width: 100%;
+  }
+
+
+
+  @media screen and (max-width: 700px) {
+    .formBox{
+        
+        width: 60%;
+        
+      }
+      .vectorsRegister{
+        width: 150%;
+      }
   }

@@ -52,3 +52,11 @@
   .vectorsLogin{
     width: 100%;
   }
+
+  .tittleLogin{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    width: 80vw;
+    /* font-size: 20px; */
+  }

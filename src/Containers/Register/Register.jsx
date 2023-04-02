@@ -10,6 +10,8 @@ import Image from "react-bootstrap/Image";
 // STYLES AND AESSETS
 import "./Register.css";
 import Button from "../../../src/Components/Button/Button";
+import vectors2 from "../../assets/vectors-2.png";
+
 
 function Register() {
     const navigate = useNavigate();
@@ -44,6 +46,11 @@ function Register() {
           
           <Button text="REGISTER"></Button>
         </form>
+      </Col>
+      <h5 className="tittleRegister">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</h5>
+      <Col className="col1Login">
+
+        <Image src={vectors2} className="vectorsRegister" alt="Image2"></Image>
       </Col>
     </Container>
   );
