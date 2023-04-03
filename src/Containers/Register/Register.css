@@ -29,7 +29,7 @@
 }
 
 .formBox{
-  background-color: #F3F4EF;
+  background-color: #272C41;
   border: solid 2px #272C41;
   margin-bottom: 30px;
   width: 40%;
@@ -48,7 +48,7 @@
 .inputDesign {
     background-color: #f5ebd8;
     border: solid 1.5px #272C41;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 80%;
     height: 5vh;
     margin-left: 10px;
@@ -58,6 +58,15 @@
 
   .vectorsRegister{
     width: 100%;
+  }
+
+  p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    text-align: start;
+    margin-bottom: 3px;
+
   }
 
 

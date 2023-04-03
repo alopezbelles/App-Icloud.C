@@ -11,7 +11,9 @@ import "./Image.css";
 const Imagen = ({ rutaImagen }) => {
   return (
     <Container fluid>
+      
       <Image className="previewDesign" src={rutaImagen} alt="Imagen" />
+
     </Container>
   );
 };

@@ -1,58 +1,56 @@
 [
-    {
-      "path": "https://drive.google.com/uc?id=14j42pPhYb8O9AQMXpwhEjm6u-44KSUhT",
-      "relevance": "Alta",
-      "date": "2022"
-      
-    },
-    {
-        "path": "https://drive.google.com/uc?id=1XO83TGg141GLIQTb_571h-E5tPqrUQDf",
-        "relevance": "Alta",
-        "date": "2022"
-        
-      },
-      {
-        "path": "https://drive.google.com/uc?id=1OsYGnS0qlAtfEAptEqJPFeLMXkMXTSNi",
-        "relevance": "Alta",
-        "date": "2022"
-        
-      },
-      {
-        "path": "https://drive.google.com/uc?id=1O0D2v9D8uEW1zDD3-oZsM6wzrAqKY72m",
-        "relevance": "Media",
-        "date": "2023"
-        
-      },
-      {
-        "path": "https://drive.google.com/uc?id=1Rp3_n8Wmfh17zk31_IT-QOskbL7DPCx5",
-        "relevance": "Media",
-        "date": "2023"
-        
-      },
-      {
-        "path": "https://drive.google.com/uc?id=1Nvw7M7K_aIHJ1QQBwUqDLgNEj6P2L53q",
-        "relevance": "Media",
-        "date": "2023"
-        
-      },
-      {
-        "path": "https://drive.google.com/uc?id=1zEwJW2fMmdTiaZm8BDIe1Pw2C8BwEVdd",
-        "relevance": "Media",
-        "date": "2020"
-        
-      },
-      {
-        "path": "https://drive.google.com/uc?id=1OfG1IgHSN0CZ3Gi-euzlF2Gt2n5q_BgR",
-        "relevance": "Baja",
-        "date": "2020"
-        
-      },
-      {
-        "path": "https://drive.google.com/uc?id=1us0tr6EUrzuwRB9hKGXp76dixmPmuE5A",
-        "relevance": "Baja",
-        "date": "2019"
-        
-      }
-
-    
-  ]
+  {
+    "path_image": "https://drive.google.com/uc?id=14j42pPhYb8O9AQMXpwhEjm6u-44KSUhT",
+    "path_pdf": "https://drive.google.com/file/d/1CPHB_76q3cl2XlwJVUtOjTT8bZiMeGKM/view?usp=share_link",
+    "relevance": "Alta",
+    "date": "2022"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1XO83TGg141GLIQTb_571h-E5tPqrUQDf",
+    "path_pdf": "https://drive.google.com/file/d/1YCqPGjocUysG0Db564RlsuZyBxq1gXed/view?usp=share_link",
+    "relevance": "Alta",
+    "date": "2022"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1OsYGnS0qlAtfEAptEqJPFeLMXkMXTSNi",
+    "path_pdf": "https://drive.google.com/file/d/1MnzYjcxSV2UUXktgP7hAES3xOOZ1HQdq/view?usp=share_link",
+    "relevance": "Alta",
+    "date": "2022"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1O0D2v9D8uEW1zDD3-oZsM6wzrAqKY72m",
+    "path_pdf": "https://drive.google.com/file/d/1pCG1ixtUC-e_UuyoBv2P7K2vOHgMH71G/view?usp=share_link",
+    "relevance": "Media",
+    "date": "2023"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1Rp3_n8Wmfh17zk31_IT-QOskbL7DPCx5",
+    "path_pdf": "https://drive.google.com/file/d/1GVlIPDQFmEmP0bL2fxw1UlyR36izyUbm/view?usp=share_link",
+    "relevance": "Media",
+    "date": "2023"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1Nvw7M7K_aIHJ1QQBwUqDLgNEj6P2L53q",
+    "path_pdf": "https://drive.google.com/file/d/1w5vd6WpiYQkPlwH8uNu7kNhz0MB3GIgD/view?usp=share_link",
+    "relevance": "Media",
+    "date": "2023"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1zEwJW2fMmdTiaZm8BDIe1Pw2C8BwEVdd",
+    "path_pdf": "https://drive.google.com/file/d/1zs1XV01h-FtUALbVHKqYId4IkLrig9NV/view?usp=share_link",
+    "relevance": "Media",
+    "date": "2020"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1OfG1IgHSN0CZ3Gi-euzlF2Gt2n5q_BgR",
+    "path_pdf": "https://drive.google.com/file/d/1zmsFcYxXgUxVAikbf-QR4AVBEKXnYYUX/view?usp=share_link",
+    "relevance": "Baja",
+    "date": "2020"
+  },
+  {
+    "path_image": "https://drive.google.com/uc?id=1us0tr6EUrzuwRB9hKGXp76dixmPmuE5A",
+    "path_pdf": "https://drive.google.com/file/d/1g_CbwRMXAl1gIvUYd_piK1i8VuA31tCM/view?usp=share_link",
+    "relevance": "Baja",
+    "date": "2019"
+  }
+]
