@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# PRUEBA TÉNCICA ICLOUD COMPLIANCE - FRONTEND
+Frontend con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Datos generales
 
-## Available Scripts
+**- Autor del proyecto:** Alejandro López Bellés
 
-In the project directory, you can run:
+**- Título del proyecto:** PRUEBA TÉCNICA ICLOUD COMPLIANCE - FRONTEND
 
-### `npm start`
+**- Fecha:** 03/04/2023
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ### Tecnologías  y dependencias
+ REACT + BOOTSTRAP  
+ 
+  ### Acceso a la aplicación
+ 
+ Deploy en Amazon Web Services:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> [[https://main.d1p6yww2pwar77.amplifyapp.com/](https://main.d1gww3mr7z6km6.amplifyapp.com/)]
 
-### `npm test`
+### Descripción general del proyecto 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La aplicación está diseñada y desarrollada en React y permite el uso de componentes reutilizables. El siguiente Frontend se divide en tres páginas. 
+La página principal es la 'HOME'. En ella encontramos una breve descripción de la librería y el acceso a los libros documentados en ella. 
 
-### `npm run build`
+Luego tenemos la página 'BOOKS', donde se muestra un listado con todos los libros alojados en la aplicación. Al pinchar sobre uno de ellos accedemos a la página 'BOOK DETAIL', donde encontraremos la información detallada, género, autor, etc. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Por último el apartado 'ADD-BOOK' permitiría el registro de un nuevo libro en la base de datos. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La aplicación permite la navegación entre las distintas pantallas que la componen y su diseño está adaptado a la resolución a distintos dispositivos. Está estructurada de la siguiente manera:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**-->HOME** 
 
-### `npm run eject`
+![home-1](https://user-images.githubusercontent.com/113507322/229634784-d74a9e11-1a4b-4d34-a969-67526e110e31.png)
+![home-2](https://user-images.githubusercontent.com/113507322/229634797-cb8b292f-1355-4f42-826f-834dd931b9be.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**-->REGISTER** 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![register](https://user-images.githubusercontent.com/113507322/229634855-04c75961-6797-480f-a382-4db07a65bb71.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**-->LOGIN** 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![login](https://user-images.githubusercontent.com/113507322/229634906-23b401df-643a-4883-a996-213c9b170c28.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**-->DOCUMENTS** 
 
-### Analyzing the Bundle Size
+![documents](https://user-images.githubusercontent.com/113507322/229634947-23906b1f-9503-411a-9b7b-6d7a785d3a6f.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+**-->ADAPTACIÓN A DISPOSITIVOS**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![mockup-lr](https://user-images.githubusercontent.com/113507322/229633635-0d1e2bae-2e6b-432a-b822-428ece116b4f.png)
 
-### Deployment
+![mockup-ipad-lr](https://user-images.githubusercontent.com/113507322/229633664-83399949-fc7d-489c-b29b-bc25d7e744c0.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**RECURSOS ALTERNATIVOS**
+
+Diseño y edición de vectores y logo:
+  - ADOBE ILLUSTRATOR. 
+
+**FUENTES**
+
+- Vectores:  www.pixabay.com / www.pexels.com
+- Fuentes: google Fonts. 
