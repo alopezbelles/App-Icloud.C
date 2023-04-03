@@ -1,13 +1,12 @@
+.containerFooter {
+  background-color: #272c41;
+  color: #f3f4ef;
+  font-size: 12px;
+  font-style: italic;
+  height: auto;
 
-.containerFooter{
-    background-color: #272C41 ;
-    color: #F3F4EF;
-    font-size: 12px;
-    font-style: italic;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

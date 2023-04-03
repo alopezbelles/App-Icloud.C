@@ -18,7 +18,6 @@ function Footer() {
         </p>
       </Col>
       <Col>
-        
         <p>sharesecurity@sharesecurity.com</p>
       </Col>
     </Container>

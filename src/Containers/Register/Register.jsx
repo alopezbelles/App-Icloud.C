@@ -56,7 +56,7 @@ function Register() {
         dis parturient montes, nascetur ridiculus mus. Donec quam felis,
         ultricies nec, pellentesque eu, pretium quis, sem.
       </h5>
-      <Col className="col1Login">
+      <Col className="col1Register">
         <Image src={vectors2} className="vectorsRegister" alt="Image2"></Image>
       </Col>
     </Container>

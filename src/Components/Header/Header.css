@@ -1,12 +1,12 @@
-.navbarDesign{
-    background-color: #FD645C;
+.navbarDesign {
+  background-color: #fd645c;
 }
 
-.logoNavbar{
-    width: 50px;
+.logoNavbar {
+  width: 50px;
 }
 
-.logoNavbar:hover{
-    scale: 1.2;
-    transition: 0.2s;
+.logoNavbar:hover {
+  scale: 1.2;
+  transition: 0.2s;
 }

@@ -11,13 +11,13 @@
   height: auto;
 }
 
-.col1Register{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.col1Register {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tittleRegister {
@@ -25,12 +25,11 @@
   margin-bottom: 1em;
   margin-top: 2em;
   width: 80vw;
-  /* font-size: 20px; */
 }
 
-.formBox{
-  background-color: #272C41;
-  border: solid 2px #272C41;
+.formBox {
+  background-color: #96b7a5;
+  border: solid 1px #272c41;
   margin-bottom: 30px;
   width: 40%;
   height: 80%;
@@ -46,38 +45,33 @@
 }
 
 .inputDesign {
-    background-color: #f5ebd8;
-    border: solid 1.5px #272C41;
-    border-radius: 10px;
+  background-color: #f5ebd8;
+  border: solid 1.5px #272c41;
+  border-radius: 10px;
+  width: 80%;
+  height: 5vh;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.vectorsRegister {
+  width: 50%;
+}
+
+p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  text-align: start;
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width: 700px) {
+  .formBox {
+    width: 60%;
+  }
+  .vectorsRegister {
     width: 80%;
-    height: 5vh;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    font-size: 13px;
   }
-
-  .vectorsRegister{
-    width: 100%;
-  }
-
-  p{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 10px;
-    text-align: start;
-    margin-bottom: 3px;
-
-  }
-
-
-
-  @media screen and (max-width: 700px) {
-    .formBox{
-        
-        width: 60%;
-        
-      }
-      .vectorsRegister{
-        width: 150%;
-      }
-  }
+}

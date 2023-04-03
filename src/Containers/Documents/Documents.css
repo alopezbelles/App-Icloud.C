@@ -1,69 +1,59 @@
-
 /* Goofle fonts: */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-.documentsDesign{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.documentsDesign {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-
-.vectorsDocuments{
-    width: 45vw;
+.vectorsDocuments {
+  width: 45vw;
 }
 
-.col1Documents{
-    width: 40%;
-    margin-top: 3em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    /* position: sticky; */
-    
-}
-.col2Documents{
-    width: 60%;
-}
-
-.tittleDocuments{
-    font-family: "Roboto", sans-serif;
-    width: 80%;
+.col1Documents {
+  width: 40%;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
+.col2Documents {
+  width: 60%;
+}
 
+.tittleDocuments {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+}
 
-.selectorDesign{
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
+.selectorDesign {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
 
-    margin: 25px;
-
+  margin: 25px;
 }
 
 @media screen and (max-width: 800px) {
-    .documentsDesign{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .col2Documents{
-        margin-top: 5em;
-    }
-    .vectorsDocuments{
-        width: 80vw;
-    }
-    .col1Documents{
-        width: 80%;
-    }
-    
-    .tittleDocuments{
-        font-family: "Roboto", sans-serif;
-        width: 100%;
-    
-    }
-    
+  .documentsDesign {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
+
+  .col2Documents {
+    margin-top: 5em;
+  }
+  .vectorsDocuments {
+    width: 80vw;
+  }
+  .col1Documents {
+    width: 80%;
+  }
+
+  .tittleDocuments {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+  }
+}

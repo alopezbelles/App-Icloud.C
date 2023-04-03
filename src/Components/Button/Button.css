@@ -1,28 +1,27 @@
 .buttonDesign {
-    background-color: #96B7A5;
-    color: #393837;
-    margin: 1em;
-  
-    width: 20vw;
-    height: 7vh;
-    border-radius: 50px;
-    border: none;
+  background-color: #96b7a5;
+  color: #393837;
+  margin: 1em;
 
-    border: solid 1.3px #272C41;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 50px;
+  border: none;
 
+  border: solid 1.3px #272c41;
+}
+
+.buttonDesign:hover {
+  background-color: #f3f4ef;
+  color: #444b51;
+  cursor: pointer;
+  scale: 1.2;
+  transition: 0.5s;
+  border: solid #444b51 1px;
+}
+
+@media screen and (max-width: 450px) {
+  .buttonDesign {
+    width: 50vw;
   }
-  
-  .buttonDesign:hover {
-    background-color: #F3F4EF;
-    color: #444b51;
-    cursor: pointer;
-    scale: 1.2;
-    transition: 0.5s;
-    border: solid #444b51 1px;
-  }
-  
-  @media screen and (max-width: 450px) {
-    .buttonDesign {
-      width: 30vw;
-    }
-  }
+}
