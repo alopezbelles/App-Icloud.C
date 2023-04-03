@@ -12,11 +12,12 @@ import Button from "../../../src/Components/Button/Button";
 function Login() {
   return (
     <Container fluid className="loginDesign">
-      <Col className="col2Login">
+      <Col className="col1Login">
         <h3 className="tittleLogin">
           Register to have access to all our features.
         </h3>
-
+      </Col>
+      <Col className="col2Login">
         <form className="formBoxLogin">
           <input
             className="inputDesignLogin"

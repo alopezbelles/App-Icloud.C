@@ -4,6 +4,7 @@
 
 .documentsDesign{
     display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
@@ -40,3 +41,29 @@
     margin: 25px;
 
 }
+
+@media screen and (max-width: 800px) {
+    .documentsDesign{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .col2Documents{
+        margin-top: 5em;
+    }
+    .vectorsDocuments{
+        width: 80vw;
+    }
+    .col1Documents{
+        width: 80%;
+    }
+    
+    .tittleDocuments{
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+    
+    }
+    
+  }
+  

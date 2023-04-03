@@ -34,7 +34,7 @@ const Pdf = () => {
             <a href={dato.path_pdf} target="_blank" rel="noopener noreferrer">
           <Imagen className="previewImage" rutaImagen={dato.path_image} />
           </a>
-          <h5>{dato.relevance}</h5>
+          {/* <h5>{dato.relevance}</h5> */}
           <p>{dato.date}</p>
         </div>
       ))}
