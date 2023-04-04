@@ -1,8 +1,14 @@
 .navbarDesign {
   background-color: #fd645c;
-  height: 3.2em;
+  /* height: 6em; */
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
 }
+
+/* .me-auto{
+  height: 3.2em;
+
+
+} */
 
 .logoNavbar {
   width: 37px;
