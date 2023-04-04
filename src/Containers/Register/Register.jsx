@@ -51,13 +51,26 @@ function Register() {
         </form>
       </Col>
       <h5 className="tittleRegister">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-        ultricies nec, pellentesque eu, pretium quis, sem.
+        Certainly, registering on Share Security's website has several
+        advantages. Firstly, registered users gain access to additional features
+        and resources that are not available to non-registered users. This
+        includes access to software updates, support forums, and user guides.
+        Secondly, registered users can benefit from personalized support and
+        guidance from Share Security's customer service team. This can be
+        particularly helpful if users have specific questions or concerns about
+        their software or if they encounter any technical issues.
       </h5>
       <Col className="col1Register">
         <Image src={vectors2} className="vectorsRegister" alt="Image2"></Image>
+        <h5 className="tittleRegister">
+          Another advantage of registering on Share Security's website is that
+          it allows users to manage their account settings and preferences. For
+          example, users can update their contact information, change their
+          password, and adjust their notification settings. Finally, registering
+          on Share Security's website allows users to receive promotional
+          offers, discounts, and other exclusive deals. This can be a great way
+          to save money on Share Security's software and services.
+        </h5>
       </Col>
     </Container>
   );

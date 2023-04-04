@@ -33,10 +33,9 @@ function Documents() {
         </select>
 
         <h4 className="tittleDocuments">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        Share Security's software includes advanced features for secure document downloading. Their software uses encrypted connections to ensure that documents downloaded from the internet are protected from interception and tampering.
+
+In addition, Share Security's software scans downloaded documents for potential threats such as viruses, malware, and other types of malicious code. This helps to ensure that any documents downloaded from the internet are safe to open and use.
         </h4>
         <Image src={vectors3} className="vectorsDocuments" alt="Image2" />
       </Col>
