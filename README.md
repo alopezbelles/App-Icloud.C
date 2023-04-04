@@ -18,14 +18,15 @@ Frontend con React
 
 > [[https://main.d1p6yww2pwar77.amplifyapp.com/](https://main.d1gww3mr7z6km6.amplifyapp.com/)]
 
-### Descripción general del proyecto 
+### Descripción general del proyecto
 
-La aplicación está diseñada y desarrollada en React y permite el uso de componentes reutilizables. El siguiente Frontend se divide en tres páginas. 
-La página principal es la 'HOME'. En ella encontramos una breve descripción de la librería y el acceso a los libros documentados en ella. 
+Diseño y desarrollo de un frontend para una empresa de seguridad software ficticia, llamada "Share Security". Con interfaz sencilla e intuitiva y una navegación dinámica para el usuario, se establecen unos recursos visuales y colores corporativos en torno a los cuales gira toda la interfaz de la aplicación. 
 
-Luego tenemos la página 'BOOKS', donde se muestra un listado con todos los libros alojados en la aplicación. Al pinchar sobre uno de ellos accedemos a la página 'BOOK DETAIL', donde encontraremos la información detallada, género, autor, etc. 
+La aplicación está diseñada y desarrollada en React y permite el uso de componentes reutilizables. El siguiente Frontend se divide en cuatro páginas. 
+La página principal es la 'HOME'. En ella encontramos una breve descripción de la empresa y sirve como acceso a las opciones de 'REGISTER' y 'LOGIN'. 
+Por otro lado, 'Register' y 'Login' son páginas independientes y se puede acceder o bien desde 'Home' o desde la Navbar. 
 
-Por último el apartado 'ADD-BOOK' permitiría el registro de un nuevo libro en la base de datos. 
+Por último el apartado 'DOCUMENTS' permite el acceso a los diferentes documentos de la empresa. Los documentos están almacenados en una dirección a google drive. Sus datos están almacenados en un archivo JSON en la carpeta 'ASSETS' para poder pintar los datos en la aplicación.  
 
 La aplicación permite la navegación entre las distintas pantallas que la componen y su diseño está adaptado a la resolución a distintos dispositivos. Está estructurada de la siguiente manera:
 
@@ -54,6 +55,8 @@ La aplicación permite la navegación entre las distintas pantallas que la compo
 
 
 **-->ADAPTACIÓN A DISPOSITIVOS**
+
+La aplicación tiene un diseño responsive a través de diferentes técnicas como Flexbox, CSS Grid y mediaquerys para conseguir que la interfaz se vea bien desde cualquier dispositivo. 
 
 ![mockup-lr](https://user-images.githubusercontent.com/113507322/229633635-0d1e2bae-2e6b-432a-b822-428ece116b4f.png)
 
