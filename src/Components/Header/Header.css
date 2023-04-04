@@ -1,9 +1,11 @@
 .navbarDesign {
   background-color: #fd645c;
+  height: 3.2em;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
 }
 
 .logoNavbar {
-  width: 50px;
+  width: 37px;
 }
 
 .logoNavbar:hover {
